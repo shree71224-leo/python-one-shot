@@ -1,0 +1,17 @@
+path: tiled_dataset
+
+train: images/train
+val: images/val
+
+nc: 9
+
+names:
+  0: Auto Switch
+  1: Disconnect Switch
+  2: Double Duplex Receptacle
+  3: Duplex Receptacle
+  4: Electrical Wall Heater
+  5: Fan Connection
+  6: Junction Box
+  7: Motor Connection
+  8: Single Receptacle

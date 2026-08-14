@@ -1,0 +1,13 @@
+venv/
+runs/
+__pycache__/
+*.pyc
+.cache
+
+Level1/dataset/images/
+Level1/tiled_dataset/images/
+Level1/rendered_pages/
+
+Level1/outputs/*.png
+Level1/outputs/*.jpg
+Level1/outputs/*.jpeg

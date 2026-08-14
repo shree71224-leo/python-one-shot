@@ -1,0 +1,2341 @@
+{
+  "info": {
+    "description": "Quantifiable-object detection dataset for construction MEP drawings",
+    "version": "1.0",
+    "date_created": "2026-08-06"
+  },
+  "licenses": [],
+  "images": [
+    {
+      "id": 1,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page1.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 1
+    },
+    {
+      "id": 2,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page5.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 5
+    },
+    {
+      "id": 3,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page6.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 6
+    },
+    {
+      "id": 4,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page8.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 8
+    },
+    {
+      "id": 5,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page9.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 9
+    },
+    {
+      "id": 6,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page21.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 21
+    },
+    {
+      "id": 7,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page22.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 22
+    },
+    {
+      "id": 8,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page24.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 24
+    },
+    {
+      "id": 9,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page25.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 25
+    },
+    {
+      "id": 10,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page30.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 30
+    },
+    {
+      "id": 11,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page31.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 31
+    },
+    {
+      "id": 12,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page32.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 32
+    },
+    {
+      "id": 13,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page33.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 33
+    },
+    {
+      "id": 14,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page34.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 34
+    },
+    {
+      "id": 15,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page35.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 35
+    },
+    {
+      "id": 16,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page36.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 36
+    },
+    {
+      "id": 17,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page37.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 37
+    },
+    {
+      "id": 18,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page38.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 38
+    },
+    {
+      "id": 19,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page41.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 41
+    },
+    {
+      "id": 20,
+      "file_name": "701 Dexter - Electrical Drawings redacted_page54.png",
+      "width": 5925,
+      "height": 5100,
+      "page": 54
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 9,
+      "bbox": [
+        3096.0,
+        400.5,
+        20.25,
+        16.5
+      ],
+      "area": 334.12,
+      "iscrowd": 0,
+      "score": 0.97,
+      "trade": "Electrical",
+      "orig_detection_id": "50374",
+      "page": 1,
+      "symbol": "Single Receptacle"
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        3094.5,
+        465.49,
+        24.14,
+        18.78
+      ],
+      "area": 453.35,
+      "iscrowd": 0,
+      "score": 0.61,
+      "trade": "Electrical",
+      "orig_detection_id": "50389",
+      "page": 1,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        3096.0,
+        434.25,
+        20.25,
+        15.75
+      ],
+      "area": 318.94,
+      "iscrowd": 0,
+      "score": 0.95,
+      "trade": "Electrical",
+      "orig_detection_id": "50392",
+      "page": 1,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 4,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        3117.0,
+        1097.25,
+        20.25,
+        15.75
+      ],
+      "area": 318.94,
+      "iscrowd": 0,
+      "score": 0.83,
+      "trade": "Electrical",
+      "orig_detection_id": "50395",
+      "page": 1,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 5,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        3118.5,
+        1039.5,
+        20.25,
+        15.75
+      ],
+      "area": 318.94,
+      "iscrowd": 0,
+      "score": 0.66,
+      "trade": "Electrical",
+      "orig_detection_id": "50400",
+      "page": 1,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 6,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        3114.0,
+        1135.5,
+        20.25,
+        15.75
+      ],
+      "area": 318.94,
+      "iscrowd": 0,
+      "score": 0.79,
+      "trade": "Electrical",
+      "orig_detection_id": "50401",
+      "page": 1,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 7,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        3099.49,
+        1149.0,
+        18.78,
+        24.14
+      ],
+      "area": 453.35,
+      "iscrowd": 0,
+      "score": 0.46,
+      "trade": "Electrical",
+      "orig_detection_id": "50402",
+      "page": 1,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 8,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        3098.25,
+        1276.5,
+        20.25,
+        15.75
+      ],
+      "area": 318.94,
+      "iscrowd": 0,
+      "score": 0.91,
+      "trade": "Electrical",
+      "orig_detection_id": "50403",
+      "page": 1,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 9,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        3100.15,
+        999.78,
+        15.14,
+        19.47
+      ],
+      "area": 294.78,
+      "iscrowd": 0,
+      "score": 0.5,
+      "trade": "Electrical",
+      "orig_detection_id": "50405",
+      "page": 1,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 10,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        3078.75,
+        3386.25,
+        20.25,
+        15.75
+      ],
+      "area": 318.94,
+      "iscrowd": 0,
+      "score": 0.94,
+      "trade": "Electrical",
+      "orig_detection_id": "50406",
+      "page": 1,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 11,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        3094.5,
+        465.0,
+        23.25,
+        18.75
+      ],
+      "area": 435.94,
+      "iscrowd": 0,
+      "score": 0.83,
+      "trade": "Electrical",
+      "orig_detection_id": "50425",
+      "page": 1,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 12,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        3096.0,
+        434.18,
+        19.5,
+        15.73
+      ],
+      "area": 306.74,
+      "iscrowd": 0,
+      "score": 0.74,
+      "trade": "Electrical",
+      "orig_detection_id": "50427",
+      "page": 1,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 13,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        3096.75,
+        827.69,
+        22.5,
+        18.15
+      ],
+      "area": 408.37,
+      "iscrowd": 0,
+      "score": 0.49,
+      "trade": "Electrical",
+      "orig_detection_id": "50429",
+      "page": 1,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 14,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        3117.0,
+        1096.6,
+        19.5,
+        15.73
+      ],
+      "area": 306.74,
+      "iscrowd": 0,
+      "score": 0.75,
+      "trade": "Electrical",
+      "orig_detection_id": "50430",
+      "page": 1,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 15,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        3098.25,
+        566.18,
+        19.5,
+        15.73
+      ],
+      "area": 306.74,
+      "iscrowd": 0,
+      "score": 0.48,
+      "trade": "Electrical",
+      "orig_detection_id": "50431",
+      "page": 1,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 16,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        3118.5,
+        1039.43,
+        19.5,
+        15.73
+      ],
+      "area": 306.74,
+      "iscrowd": 0,
+      "score": 0.61,
+      "trade": "Electrical",
+      "orig_detection_id": "50433",
+      "page": 1,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 17,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        3114.0,
+        1135.43,
+        19.5,
+        15.73
+      ],
+      "area": 306.74,
+      "iscrowd": 0,
+      "score": 0.63,
+      "trade": "Electrical",
+      "orig_detection_id": "50434",
+      "page": 1,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 18,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        3098.25,
+        1149.0,
+        18.75,
+        23.25
+      ],
+      "area": 435.94,
+      "iscrowd": 0,
+      "score": 0.67,
+      "trade": "Electrical",
+      "orig_detection_id": "50435",
+      "page": 1,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 19,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        3098.25,
+        1277.35,
+        19.5,
+        15.73
+      ],
+      "area": 306.74,
+      "iscrowd": 0,
+      "score": 0.74,
+      "trade": "Electrical",
+      "orig_detection_id": "50436",
+      "page": 1,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 20,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        3099.36,
+        1000.5,
+        15.12,
+        18.75
+      ],
+      "area": 283.5,
+      "iscrowd": 0,
+      "score": 0.59,
+      "trade": "Electrical",
+      "orig_detection_id": "50437",
+      "page": 1,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 21,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        3078.75,
+        3387.1,
+        19.5,
+        15.73
+      ],
+      "area": 306.74,
+      "iscrowd": 0,
+      "score": 0.77,
+      "trade": "Electrical",
+      "orig_detection_id": "50438",
+      "page": 1,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 22,
+      "image_id": 1,
+      "category_id": 7,
+      "bbox": [
+        3823.06,
+        3297.37,
+        17.19,
+        17.19
+      ],
+      "area": 295.5,
+      "iscrowd": 0,
+      "score": 0.81,
+      "trade": "Electrical",
+      "orig_detection_id": "50453",
+      "page": 1,
+      "symbol": "Junction Box"
+    },
+    {
+      "id": 23,
+      "image_id": 1,
+      "category_id": 7,
+      "bbox": [
+        3099.75,
+        1348.5,
+        18.75,
+        18.75
+      ],
+      "area": 351.56,
+      "iscrowd": 0,
+      "score": 1.0,
+      "trade": "Electrical",
+      "orig_detection_id": "50460",
+      "page": 1,
+      "symbol": "Junction Box"
+    },
+    {
+      "id": 24,
+      "image_id": 1,
+      "category_id": 7,
+      "bbox": [
+        3218.5,
+        3442.06,
+        20.31,
+        20.31
+      ],
+      "area": 412.5,
+      "iscrowd": 0,
+      "score": 0.42,
+      "trade": "Electrical",
+      "orig_detection_id": "50466",
+      "page": 1,
+      "symbol": "Junction Box"
+    },
+    {
+      "id": 25,
+      "image_id": 2,
+      "category_id": 5,
+      "bbox": [
+        5474.0,
+        1296.0,
+        37.0,
+        42.0
+      ],
+      "area": 1554.0,
+      "iscrowd": 0,
+      "score": 0.97,
+      "trade": "Electrical",
+      "orig_detection_id": "50316",
+      "page": 5,
+      "symbol": "Electrical Wall Heater"
+    },
+    {
+      "id": 26,
+      "image_id": 2,
+      "category_id": 5,
+      "bbox": [
+        1749.0,
+        1277.0,
+        37.0,
+        42.0
+      ],
+      "area": 1554.0,
+      "iscrowd": 0,
+      "score": 1.0,
+      "trade": "Electrical",
+      "orig_detection_id": "50317",
+      "page": 5,
+      "symbol": "Electrical Wall Heater"
+    },
+    {
+      "id": 27,
+      "image_id": 2,
+      "category_id": 2,
+      "bbox": [
+        4626.0,
+        2187.0,
+        25.0,
+        18.0
+      ],
+      "area": 450.0,
+      "iscrowd": 0,
+      "score": 0.88,
+      "trade": "Electrical",
+      "orig_detection_id": "50318",
+      "page": 5,
+      "symbol": "Disconnect Switch"
+    },
+    {
+      "id": 28,
+      "image_id": 2,
+      "category_id": 2,
+      "bbox": [
+        4626.0,
+        2216.0,
+        25.0,
+        18.0
+      ],
+      "area": 450.0,
+      "iscrowd": 0,
+      "score": 0.74,
+      "trade": "Electrical",
+      "orig_detection_id": "50319",
+      "page": 5,
+      "symbol": "Disconnect Switch"
+    },
+    {
+      "id": 29,
+      "image_id": 2,
+      "category_id": 6,
+      "bbox": [
+        2016.0,
+        2914.5,
+        19.0,
+        24.5
+      ],
+      "area": 465.5,
+      "iscrowd": 0,
+      "score": 1.0,
+      "trade": "Electrical",
+      "orig_detection_id": "50320",
+      "page": 5,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 30,
+      "image_id": 2,
+      "category_id": 6,
+      "bbox": [
+        4440.0,
+        1466.0,
+        19.0,
+        24.5
+      ],
+      "area": 465.5,
+      "iscrowd": 0,
+      "score": 0.61,
+      "trade": "Electrical",
+      "orig_detection_id": "50321",
+      "page": 5,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 31,
+      "image_id": 2,
+      "category_id": 6,
+      "bbox": [
+        4410.0,
+        1466.0,
+        19.0,
+        24.5
+      ],
+      "area": 465.5,
+      "iscrowd": 0,
+      "score": 0.62,
+      "trade": "Electrical",
+      "orig_detection_id": "50322",
+      "page": 5,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 32,
+      "image_id": 2,
+      "category_id": 6,
+      "bbox": [
+        4070.0,
+        1380.5,
+        19.0,
+        24.5
+      ],
+      "area": 465.5,
+      "iscrowd": 0,
+      "score": 0.86,
+      "trade": "Electrical",
+      "orig_detection_id": "50323",
+      "page": 5,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 33,
+      "image_id": 2,
+      "category_id": 6,
+      "bbox": [
+        4040.0,
+        1380.5,
+        19.0,
+        24.5
+      ],
+      "area": 465.5,
+      "iscrowd": 0,
+      "score": 0.87,
+      "trade": "Electrical",
+      "orig_detection_id": "50324",
+      "page": 5,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 34,
+      "image_id": 2,
+      "category_id": 6,
+      "bbox": [
+        4799.0,
+        2275.5,
+        19.0,
+        24.5
+      ],
+      "area": 465.5,
+      "iscrowd": 0,
+      "score": 0.96,
+      "trade": "Electrical",
+      "orig_detection_id": "50325",
+      "page": 5,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 35,
+      "image_id": 3,
+      "category_id": 8,
+      "bbox": [
+        2253.83,
+        1153.53,
+        27.2,
+        27.1
+      ],
+      "area": 737.12,
+      "iscrowd": 0,
+      "score": 0.9,
+      "trade": "Electrical",
+      "orig_detection_id": "50333",
+      "page": 6,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 36,
+      "image_id": 4,
+      "category_id": 8,
+      "bbox": [
+        3118.67,
+        2694.27,
+        27.2,
+        27.1
+      ],
+      "area": 737.12,
+      "iscrowd": 0,
+      "score": 0.53,
+      "trade": "Electrical",
+      "orig_detection_id": "50334",
+      "page": 8,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 37,
+      "image_id": 4,
+      "category_id": 8,
+      "bbox": [
+        3118.67,
+        2313.77,
+        27.2,
+        27.1
+      ],
+      "area": 737.12,
+      "iscrowd": 0,
+      "score": 0.53,
+      "trade": "Electrical",
+      "orig_detection_id": "50335",
+      "page": 8,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 38,
+      "image_id": 4,
+      "category_id": 1,
+      "bbox": [
+        3125.9,
+        2882.58,
+        21.49,
+        4.98
+      ],
+      "area": 107.02,
+      "iscrowd": 0,
+      "score": 1.0,
+      "trade": "Electrical",
+      "orig_detection_id": "50371",
+      "page": 8,
+      "symbol": "Auto Switch"
+    },
+    {
+      "id": 39,
+      "image_id": 4,
+      "category_id": 1,
+      "bbox": [
+        3125.12,
+        2271.77,
+        21.49,
+        4.98
+      ],
+      "area": 107.02,
+      "iscrowd": 0,
+      "score": 1.0,
+      "trade": "Electrical",
+      "orig_detection_id": "50372",
+      "page": 8,
+      "symbol": "Auto Switch"
+    },
+    {
+      "id": 40,
+      "image_id": 5,
+      "category_id": 1,
+      "bbox": [
+        2145.67,
+        2123.66,
+        21.49,
+        4.98
+      ],
+      "area": 107.02,
+      "iscrowd": 0,
+      "score": 1.0,
+      "trade": "Electrical",
+      "orig_detection_id": "50500",
+      "page": 9,
+      "symbol": "Auto Switch"
+    },
+    {
+      "id": 41,
+      "image_id": 5,
+      "category_id": 1,
+      "bbox": [
+        2162.78,
+        2377.25,
+        21.07,
+        4.88
+      ],
+      "area": 102.82,
+      "iscrowd": 0,
+      "score": 0.98,
+      "trade": "Electrical",
+      "orig_detection_id": "50501",
+      "page": 9,
+      "symbol": "Auto Switch"
+    },
+    {
+      "id": 42,
+      "image_id": 5,
+      "category_id": 1,
+      "bbox": [
+        2223.28,
+        2377.25,
+        21.08,
+        4.89
+      ],
+      "area": 103.08,
+      "iscrowd": 0,
+      "score": 0.98,
+      "trade": "Electrical",
+      "orig_detection_id": "50502",
+      "page": 9,
+      "symbol": "Auto Switch"
+    },
+    {
+      "id": 43,
+      "image_id": 5,
+      "category_id": 1,
+      "bbox": [
+        1841.48,
+        1134.2,
+        4.98,
+        21.49
+      ],
+      "area": 107.02,
+      "iscrowd": 0,
+      "score": 1.0,
+      "trade": "Electrical",
+      "orig_detection_id": "50503",
+      "page": 9,
+      "symbol": "Auto Switch"
+    },
+    {
+      "id": 44,
+      "image_id": 5,
+      "category_id": 1,
+      "bbox": [
+        2631.64,
+        2460.79,
+        18.42,
+        18.74
+      ],
+      "area": 345.19,
+      "iscrowd": 0,
+      "score": 0.98,
+      "trade": "Electrical",
+      "orig_detection_id": "50504",
+      "page": 9,
+      "symbol": "Auto Switch"
+    },
+    {
+      "id": 45,
+      "image_id": 6,
+      "category_id": 6,
+      "bbox": [
+        3185.0,
+        1030.5,
+        19.0,
+        24.5
+      ],
+      "area": 465.5,
+      "iscrowd": 0,
+      "score": 0.76,
+      "trade": "Electrical",
+      "orig_detection_id": "50326",
+      "page": 21,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 46,
+      "image_id": 6,
+      "category_id": 6,
+      "bbox": [
+        3218.0,
+        1033.5,
+        19.0,
+        24.5
+      ],
+      "area": 465.5,
+      "iscrowd": 0,
+      "score": 0.77,
+      "trade": "Electrical",
+      "orig_detection_id": "50327",
+      "page": 21,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 47,
+      "image_id": 6,
+      "category_id": 6,
+      "bbox": [
+        3588.0,
+        977.5,
+        19.0,
+        24.5
+      ],
+      "area": 465.5,
+      "iscrowd": 0,
+      "score": 0.82,
+      "trade": "Electrical",
+      "orig_detection_id": "50328",
+      "page": 21,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 48,
+      "image_id": 6,
+      "category_id": 6,
+      "bbox": [
+        4656.0,
+        1119.0,
+        19.0,
+        24.5
+      ],
+      "area": 465.5,
+      "iscrowd": 0,
+      "score": 0.61,
+      "trade": "Electrical",
+      "orig_detection_id": "50329",
+      "page": 21,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 49,
+      "image_id": 6,
+      "category_id": 6,
+      "bbox": [
+        5037.0,
+        1323.5,
+        19.0,
+        24.5
+      ],
+      "area": 465.5,
+      "iscrowd": 0,
+      "score": 0.86,
+      "trade": "Electrical",
+      "orig_detection_id": "50330",
+      "page": 21,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 50,
+      "image_id": 7,
+      "category_id": 8,
+      "bbox": [
+        1927.09,
+        1508.45,
+        27.1,
+        27.2
+      ],
+      "area": 737.12,
+      "iscrowd": 0,
+      "score": 0.4,
+      "trade": "Electrical",
+      "orig_detection_id": "50494",
+      "page": 22,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 51,
+      "image_id": 8,
+      "category_id": 8,
+      "bbox": [
+        4691.33,
+        1953.49,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.58,
+      "trade": "Electrical",
+      "orig_detection_id": "50336",
+      "page": 24,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 52,
+      "image_id": 8,
+      "category_id": 8,
+      "bbox": [
+        4766.34,
+        1953.49,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.58,
+      "trade": "Electrical",
+      "orig_detection_id": "50337",
+      "page": 24,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 53,
+      "image_id": 8,
+      "category_id": 8,
+      "bbox": [
+        4841.35,
+        1953.49,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.58,
+      "trade": "Electrical",
+      "orig_detection_id": "50338",
+      "page": 24,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 54,
+      "image_id": 8,
+      "category_id": 8,
+      "bbox": [
+        5455.23,
+        1319.88,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.55,
+      "trade": "Electrical",
+      "orig_detection_id": "50339",
+      "page": 24,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 55,
+      "image_id": 8,
+      "category_id": 8,
+      "bbox": [
+        1796.49,
+        1329.2,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.55,
+      "trade": "Electrical",
+      "orig_detection_id": "50340",
+      "page": 24,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 56,
+      "image_id": 9,
+      "category_id": 8,
+      "bbox": [
+        4733.72,
+        1944.41,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.59,
+      "trade": "Electrical",
+      "orig_detection_id": "50341",
+      "page": 25,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 57,
+      "image_id": 9,
+      "category_id": 8,
+      "bbox": [
+        4808.73,
+        1944.41,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.59,
+      "trade": "Electrical",
+      "orig_detection_id": "50342",
+      "page": 25,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 58,
+      "image_id": 9,
+      "category_id": 8,
+      "bbox": [
+        4883.74,
+        1944.41,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.59,
+      "trade": "Electrical",
+      "orig_detection_id": "50343",
+      "page": 25,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 59,
+      "image_id": 9,
+      "category_id": 8,
+      "bbox": [
+        1834.97,
+        1321.24,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.56,
+      "trade": "Electrical",
+      "orig_detection_id": "50344",
+      "page": 25,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 60,
+      "image_id": 9,
+      "category_id": 8,
+      "bbox": [
+        5494.59,
+        1309.23,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.56,
+      "trade": "Electrical",
+      "orig_detection_id": "50345",
+      "page": 25,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 61,
+      "image_id": 10,
+      "category_id": 8,
+      "bbox": [
+        5506.36,
+        1412.42,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.56,
+      "trade": "Electrical",
+      "orig_detection_id": "50495",
+      "page": 30,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 62,
+      "image_id": 11,
+      "category_id": 8,
+      "bbox": [
+        2057.85,
+        1423.4,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.55,
+      "trade": "Electrical",
+      "orig_detection_id": "50496",
+      "page": 31,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 63,
+      "image_id": 12,
+      "category_id": 8,
+      "bbox": [
+        2057.56,
+        1419.35,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.56,
+      "trade": "Electrical",
+      "orig_detection_id": "50497",
+      "page": 32,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 64,
+      "image_id": 12,
+      "category_id": 8,
+      "bbox": [
+        5524.92,
+        1397.82,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.55,
+      "trade": "Electrical",
+      "orig_detection_id": "50498",
+      "page": 32,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 65,
+      "image_id": 13,
+      "category_id": 8,
+      "bbox": [
+        2064.88,
+        1388.19,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.55,
+      "trade": "Electrical",
+      "orig_detection_id": "50346",
+      "page": 33,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 66,
+      "image_id": 13,
+      "category_id": 8,
+      "bbox": [
+        5633.38,
+        2946.42,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.59,
+      "trade": "Electrical",
+      "orig_detection_id": "50347",
+      "page": 33,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 67,
+      "image_id": 13,
+      "category_id": 8,
+      "bbox": [
+        5520.86,
+        2946.42,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.59,
+      "trade": "Electrical",
+      "orig_detection_id": "50348",
+      "page": 33,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 68,
+      "image_id": 13,
+      "category_id": 8,
+      "bbox": [
+        5408.35,
+        2946.42,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.59,
+      "trade": "Electrical",
+      "orig_detection_id": "50349",
+      "page": 33,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 69,
+      "image_id": 13,
+      "category_id": 8,
+      "bbox": [
+        5295.84,
+        2946.42,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.59,
+      "trade": "Electrical",
+      "orig_detection_id": "50350",
+      "page": 33,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 70,
+      "image_id": 13,
+      "category_id": 8,
+      "bbox": [
+        5183.28,
+        2946.42,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.58,
+      "trade": "Electrical",
+      "orig_detection_id": "50351",
+      "page": 33,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 71,
+      "image_id": 13,
+      "category_id": 8,
+      "bbox": [
+        5520.38,
+        1361.87,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.55,
+      "trade": "Electrical",
+      "orig_detection_id": "50352",
+      "page": 33,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 72,
+      "image_id": 13,
+      "category_id": 8,
+      "bbox": [
+        5720.24,
+        2389.51,
+        18.07,
+        18.13
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.58,
+      "trade": "Electrical",
+      "orig_detection_id": "50353",
+      "page": 33,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 73,
+      "image_id": 13,
+      "category_id": 8,
+      "bbox": [
+        5720.24,
+        2502.02,
+        18.07,
+        18.13
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.58,
+      "trade": "Electrical",
+      "orig_detection_id": "50354",
+      "page": 33,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 74,
+      "image_id": 13,
+      "category_id": 8,
+      "bbox": [
+        5720.24,
+        2614.53,
+        18.07,
+        18.13
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.57,
+      "trade": "Electrical",
+      "orig_detection_id": "50355",
+      "page": 33,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 75,
+      "image_id": 13,
+      "category_id": 8,
+      "bbox": [
+        5720.24,
+        2727.04,
+        18.07,
+        18.13
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.58,
+      "trade": "Electrical",
+      "orig_detection_id": "50356",
+      "page": 33,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 76,
+      "image_id": 13,
+      "category_id": 8,
+      "bbox": [
+        5720.24,
+        2839.55,
+        18.07,
+        18.13
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.58,
+      "trade": "Electrical",
+      "orig_detection_id": "50357",
+      "page": 33,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 77,
+      "image_id": 14,
+      "category_id": 8,
+      "bbox": [
+        2057.85,
+        1430.44,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.56,
+      "trade": "Electrical",
+      "orig_detection_id": "50358",
+      "page": 34,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 78,
+      "image_id": 14,
+      "category_id": 8,
+      "bbox": [
+        5515.1,
+        1402.36,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.55,
+      "trade": "Electrical",
+      "orig_detection_id": "50359",
+      "page": 34,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 79,
+      "image_id": 15,
+      "category_id": 8,
+      "bbox": [
+        5510.27,
+        1440.64,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.55,
+      "trade": "Electrical",
+      "orig_detection_id": "50360",
+      "page": 35,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 80,
+      "image_id": 15,
+      "category_id": 8,
+      "bbox": [
+        2057.56,
+        1464.77,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.55,
+      "trade": "Electrical",
+      "orig_detection_id": "50361",
+      "page": 35,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 81,
+      "image_id": 16,
+      "category_id": 8,
+      "bbox": [
+        5523.4,
+        1376.57,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.56,
+      "trade": "Electrical",
+      "orig_detection_id": "50362",
+      "page": 36,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 82,
+      "image_id": 16,
+      "category_id": 8,
+      "bbox": [
+        2064.88,
+        1402.31,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.55,
+      "trade": "Electrical",
+      "orig_detection_id": "50363",
+      "page": 36,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 83,
+      "image_id": 17,
+      "category_id": 8,
+      "bbox": [
+        5524.63,
+        1440.84,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.56,
+      "trade": "Electrical",
+      "orig_detection_id": "50364",
+      "page": 37,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 84,
+      "image_id": 17,
+      "category_id": 8,
+      "bbox": [
+        2066.1,
+        1448.46,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.55,
+      "trade": "Electrical",
+      "orig_detection_id": "50365",
+      "page": 37,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 85,
+      "image_id": 18,
+      "category_id": 8,
+      "bbox": [
+        2042.42,
+        1397.82,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.56,
+      "trade": "Electrical",
+      "orig_detection_id": "50366",
+      "page": 38,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 86,
+      "image_id": 18,
+      "category_id": 8,
+      "bbox": [
+        5546.8,
+        2206.64,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.54,
+      "trade": "Electrical",
+      "orig_detection_id": "50367",
+      "page": 38,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 87,
+      "image_id": 18,
+      "category_id": 8,
+      "bbox": [
+        5546.8,
+        2354.31,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.54,
+      "trade": "Electrical",
+      "orig_detection_id": "50368",
+      "page": 38,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 88,
+      "image_id": 18,
+      "category_id": 8,
+      "bbox": [
+        5546.8,
+        2490.66,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.54,
+      "trade": "Electrical",
+      "orig_detection_id": "50369",
+      "page": 38,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 89,
+      "image_id": 18,
+      "category_id": 8,
+      "bbox": [
+        5517.06,
+        1396.35,
+        18.13,
+        18.07
+      ],
+      "area": 327.61,
+      "iscrowd": 0,
+      "score": 0.56,
+      "trade": "Electrical",
+      "orig_detection_id": "50370",
+      "page": 38,
+      "symbol": "Motor Connection"
+    },
+    {
+      "id": 90,
+      "image_id": 19,
+      "category_id": 6,
+      "bbox": [
+        3839.92,
+        1540.15,
+        21.07,
+        26.8
+      ],
+      "area": 564.68,
+      "iscrowd": 0,
+      "score": 0.9,
+      "trade": "Electrical",
+      "orig_detection_id": "50488",
+      "page": 41,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 91,
+      "image_id": 19,
+      "category_id": 6,
+      "bbox": [
+        4137.92,
+        2209.14,
+        21.07,
+        26.8
+      ],
+      "area": 564.68,
+      "iscrowd": 0,
+      "score": 0.88,
+      "trade": "Electrical",
+      "orig_detection_id": "50489",
+      "page": 41,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 92,
+      "image_id": 19,
+      "category_id": 6,
+      "bbox": [
+        3361.92,
+        2706.15,
+        21.07,
+        26.8
+      ],
+      "area": 564.68,
+      "iscrowd": 0,
+      "score": 0.87,
+      "trade": "Electrical",
+      "orig_detection_id": "50490",
+      "page": 41,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 93,
+      "image_id": 19,
+      "category_id": 6,
+      "bbox": [
+        1176.0,
+        675.5,
+        19.0,
+        24.5
+      ],
+      "area": 465.5,
+      "iscrowd": 0,
+      "score": 0.87,
+      "trade": "Electrical",
+      "orig_detection_id": "50491",
+      "page": 41,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 94,
+      "image_id": 19,
+      "category_id": 6,
+      "bbox": [
+        1137.0,
+        673.0,
+        19.0,
+        24.5
+      ],
+      "area": 465.5,
+      "iscrowd": 0,
+      "score": 0.76,
+      "trade": "Electrical",
+      "orig_detection_id": "50492",
+      "page": 41,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 95,
+      "image_id": 19,
+      "category_id": 6,
+      "bbox": [
+        1479.0,
+        894.5,
+        19.0,
+        24.5
+      ],
+      "area": 465.5,
+      "iscrowd": 0,
+      "score": 0.79,
+      "trade": "Electrical",
+      "orig_detection_id": "50493",
+      "page": 41,
+      "symbol": "Fan Connection"
+    },
+    {
+      "id": 96,
+      "image_id": 20,
+      "category_id": 9,
+      "bbox": [
+        3096.0,
+        400.5,
+        20.25,
+        16.5
+      ],
+      "area": 334.12,
+      "iscrowd": 0,
+      "score": 0.97,
+      "trade": "Electrical",
+      "orig_detection_id": "50382",
+      "page": 54,
+      "symbol": "Single Receptacle"
+    },
+    {
+      "id": 97,
+      "image_id": 20,
+      "category_id": 4,
+      "bbox": [
+        3094.5,
+        465.49,
+        24.14,
+        18.78
+      ],
+      "area": 453.35,
+      "iscrowd": 0,
+      "score": 0.61,
+      "trade": "Electrical",
+      "orig_detection_id": "50407",
+      "page": 54,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 98,
+      "image_id": 20,
+      "category_id": 4,
+      "bbox": [
+        3096.0,
+        434.25,
+        20.25,
+        15.75
+      ],
+      "area": 318.94,
+      "iscrowd": 0,
+      "score": 0.95,
+      "trade": "Electrical",
+      "orig_detection_id": "50410",
+      "page": 54,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 99,
+      "image_id": 20,
+      "category_id": 4,
+      "bbox": [
+        3117.0,
+        1097.25,
+        20.25,
+        15.75
+      ],
+      "area": 318.94,
+      "iscrowd": 0,
+      "score": 0.83,
+      "trade": "Electrical",
+      "orig_detection_id": "50413",
+      "page": 54,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 100,
+      "image_id": 20,
+      "category_id": 4,
+      "bbox": [
+        3118.5,
+        1039.5,
+        20.25,
+        15.75
+      ],
+      "area": 318.94,
+      "iscrowd": 0,
+      "score": 0.66,
+      "trade": "Electrical",
+      "orig_detection_id": "50418",
+      "page": 54,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 101,
+      "image_id": 20,
+      "category_id": 4,
+      "bbox": [
+        3114.0,
+        1135.5,
+        20.25,
+        15.75
+      ],
+      "area": 318.94,
+      "iscrowd": 0,
+      "score": 0.79,
+      "trade": "Electrical",
+      "orig_detection_id": "50419",
+      "page": 54,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 102,
+      "image_id": 20,
+      "category_id": 4,
+      "bbox": [
+        3099.49,
+        1149.0,
+        18.78,
+        24.14
+      ],
+      "area": 453.35,
+      "iscrowd": 0,
+      "score": 0.46,
+      "trade": "Electrical",
+      "orig_detection_id": "50420",
+      "page": 54,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 103,
+      "image_id": 20,
+      "category_id": 4,
+      "bbox": [
+        3098.25,
+        1276.5,
+        20.25,
+        15.75
+      ],
+      "area": 318.94,
+      "iscrowd": 0,
+      "score": 0.91,
+      "trade": "Electrical",
+      "orig_detection_id": "50421",
+      "page": 54,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 104,
+      "image_id": 20,
+      "category_id": 4,
+      "bbox": [
+        3100.15,
+        999.78,
+        15.14,
+        19.47
+      ],
+      "area": 294.78,
+      "iscrowd": 0,
+      "score": 0.5,
+      "trade": "Electrical",
+      "orig_detection_id": "50423",
+      "page": 54,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 105,
+      "image_id": 20,
+      "category_id": 4,
+      "bbox": [
+        3078.75,
+        3386.25,
+        20.25,
+        15.75
+      ],
+      "area": 318.94,
+      "iscrowd": 0,
+      "score": 0.94,
+      "trade": "Electrical",
+      "orig_detection_id": "50424",
+      "page": 54,
+      "symbol": "Duplex Receptacle"
+    },
+    {
+      "id": 106,
+      "image_id": 20,
+      "category_id": 3,
+      "bbox": [
+        3094.5,
+        465.0,
+        23.25,
+        18.75
+      ],
+      "area": 435.94,
+      "iscrowd": 0,
+      "score": 0.83,
+      "trade": "Electrical",
+      "orig_detection_id": "50439",
+      "page": 54,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 107,
+      "image_id": 20,
+      "category_id": 3,
+      "bbox": [
+        3096.0,
+        434.18,
+        19.5,
+        15.73
+      ],
+      "area": 306.74,
+      "iscrowd": 0,
+      "score": 0.74,
+      "trade": "Electrical",
+      "orig_detection_id": "50441",
+      "page": 54,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 108,
+      "image_id": 20,
+      "category_id": 3,
+      "bbox": [
+        3096.75,
+        827.69,
+        22.5,
+        18.15
+      ],
+      "area": 408.37,
+      "iscrowd": 0,
+      "score": 0.49,
+      "trade": "Electrical",
+      "orig_detection_id": "50443",
+      "page": 54,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 109,
+      "image_id": 20,
+      "category_id": 3,
+      "bbox": [
+        3117.0,
+        1096.6,
+        19.5,
+        15.73
+      ],
+      "area": 306.74,
+      "iscrowd": 0,
+      "score": 0.75,
+      "trade": "Electrical",
+      "orig_detection_id": "50444",
+      "page": 54,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 110,
+      "image_id": 20,
+      "category_id": 3,
+      "bbox": [
+        3098.25,
+        566.18,
+        19.5,
+        15.73
+      ],
+      "area": 306.74,
+      "iscrowd": 0,
+      "score": 0.48,
+      "trade": "Electrical",
+      "orig_detection_id": "50445",
+      "page": 54,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 111,
+      "image_id": 20,
+      "category_id": 3,
+      "bbox": [
+        3118.5,
+        1039.43,
+        19.5,
+        15.73
+      ],
+      "area": 306.74,
+      "iscrowd": 0,
+      "score": 0.61,
+      "trade": "Electrical",
+      "orig_detection_id": "50447",
+      "page": 54,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 112,
+      "image_id": 20,
+      "category_id": 3,
+      "bbox": [
+        3114.0,
+        1135.43,
+        19.5,
+        15.73
+      ],
+      "area": 306.74,
+      "iscrowd": 0,
+      "score": 0.63,
+      "trade": "Electrical",
+      "orig_detection_id": "50448",
+      "page": 54,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 113,
+      "image_id": 20,
+      "category_id": 3,
+      "bbox": [
+        3098.25,
+        1149.0,
+        18.75,
+        23.25
+      ],
+      "area": 435.94,
+      "iscrowd": 0,
+      "score": 0.67,
+      "trade": "Electrical",
+      "orig_detection_id": "50449",
+      "page": 54,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 114,
+      "image_id": 20,
+      "category_id": 3,
+      "bbox": [
+        3098.25,
+        1277.35,
+        19.5,
+        15.73
+      ],
+      "area": 306.74,
+      "iscrowd": 0,
+      "score": 0.74,
+      "trade": "Electrical",
+      "orig_detection_id": "50450",
+      "page": 54,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 115,
+      "image_id": 20,
+      "category_id": 3,
+      "bbox": [
+        3099.36,
+        1000.5,
+        15.12,
+        18.75
+      ],
+      "area": 283.5,
+      "iscrowd": 0,
+      "score": 0.59,
+      "trade": "Electrical",
+      "orig_detection_id": "50451",
+      "page": 54,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 116,
+      "image_id": 20,
+      "category_id": 3,
+      "bbox": [
+        3078.75,
+        3387.1,
+        19.5,
+        15.73
+      ],
+      "area": 306.74,
+      "iscrowd": 0,
+      "score": 0.77,
+      "trade": "Electrical",
+      "orig_detection_id": "50452",
+      "page": 54,
+      "symbol": "Double Duplex Receptacle"
+    },
+    {
+      "id": 117,
+      "image_id": 20,
+      "category_id": 7,
+      "bbox": [
+        3823.06,
+        3297.37,
+        17.19,
+        17.19
+      ],
+      "area": 295.5,
+      "iscrowd": 0,
+      "score": 0.81,
+      "trade": "Electrical",
+      "orig_detection_id": "50467",
+      "page": 54,
+      "symbol": "Junction Box"
+    },
+    {
+      "id": 118,
+      "image_id": 20,
+      "category_id": 7,
+      "bbox": [
+        3099.75,
+        1348.5,
+        18.75,
+        18.75
+      ],
+      "area": 351.56,
+      "iscrowd": 0,
+      "score": 1.0,
+      "trade": "Electrical",
+      "orig_detection_id": "50474",
+      "page": 54,
+      "symbol": "Junction Box"
+    },
+    {
+      "id": 119,
+      "image_id": 20,
+      "category_id": 7,
+      "bbox": [
+        3218.5,
+        3442.06,
+        20.31,
+        20.31
+      ],
+      "area": 412.5,
+      "iscrowd": 0,
+      "score": 0.42,
+      "trade": "Electrical",
+      "orig_detection_id": "50480",
+      "page": 54,
+      "symbol": "Junction Box"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Auto Switch",
+      "supercategory": "Electrical Eq \u2014 Generator"
+    },
+    {
+      "id": 2,
+      "name": "Disconnect Switch",
+      "supercategory": "Electrical Eq \u2014 Generator"
+    },
+    {
+      "id": 3,
+      "name": "Double Duplex Receptacle",
+      "supercategory": "Electrical Eq \u2014 Generator"
+    },
+    {
+      "id": 4,
+      "name": "Duplex Receptacle",
+      "supercategory": "Electrical Eq \u2014 Generator"
+    },
+    {
+      "id": 5,
+      "name": "Electrical Wall Heater",
+      "supercategory": "Electrical Eq \u2014 Generator"
+    },
+    {
+      "id": 6,
+      "name": "Fan Connection",
+      "supercategory": "Electrical Eq \u2014 Generator"
+    },
+    {
+      "id": 7,
+      "name": "Junction Box",
+      "supercategory": "Electrical Eq \u2014 Generator"
+    },
+    {
+      "id": 8,
+      "name": "Motor Connection",
+      "supercategory": "Electrical Eq \u2014 Generator"
+    },
+    {
+      "id": 9,
+      "name": "Single Receptacle",
+      "supercategory": "Electrical Eq \u2014 Generator"
+    }
+  ]
+}
